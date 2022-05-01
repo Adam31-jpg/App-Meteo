@@ -1,0 +1,79 @@
+
+
+.box-container{
+    width: auto;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.form-meteo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 80px;
+    flex-direction: column;
+}
+
+
+.box{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+#city{
+    border: 3px solid #eccd00;
+    background: #eccd00;
+    transition: var(--transition);
+    border-radius: 1.2rem;
+}
+
+#temp{
+    border: 3px solid #eccd00;
+    background: #eccd00;
+    transition: var(--transition);
+    border-radius: 1.2rem;
+
+}
+
+#humidity{
+    border: 3px solid #eccd00;
+    background: #eccd00;
+    transition: var(--transition);
+    border-radius: 1.2rem;
+
+}
+#wind{
+    border: 3px solid #eccd00;
+    background: #eccd00;
+    transition: var(--transition);
+    border-radius: 1.2rem;
+
+}
+
+
+#city:hover,
+#temp:hover,
+#humidity:hover,
+#wind:hover{
+    background: transparent;
+    color: white;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.meteo-svg{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 20px;
+}
